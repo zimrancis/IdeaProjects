@@ -1,0 +1,42 @@
+# ===============================
+# = DATA SOURCE
+# ===============================
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/rentDL?createDatabaseIfNotExist=true
+#    username: root
+#    password: root
+#  application:
+#    name: task
+#  # ===============================
+#  # = JPA / HIBERNATE
+#  # ===============================
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#
+#hibernate:
+#  format:
+#    sql: true
+## ===============================
+
+
+# ===============================
+# = HIBERNATE
+# ===============================
+#hibernate:
+#  connection:
+#    driver_class: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/eagerloadingDB?createDatabaseIfNotExist=true
+#    username: root
+#    password: root
+#  dialect: org.hibernate.dialect.MySQL8Dialect
+#  hbm2ddl:
+#    auto: update
+#  show_sql: true
+#  format_sql: true

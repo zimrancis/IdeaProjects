@@ -1,0 +1,37 @@
+#
+## ===============================
+## = DATA SOURCE
+## ===============================
+##spring:
+##datasource:
+##driver-class-name: com.mysql.cj.jdbc.Driver
+##url: jdbc:mysql://localhost:3306/eagerloadingDB?createDatabaseIfNotExist=true
+##username: root
+##password: root
+##application:
+##name: task
+## ===============================
+## = JPA
+## ===============================
+##jpa:
+##show-sql: true
+##ddl-auto: update
+##properties:
+##dialect: org.hibernate.dialect.MySQL8Dialect
+##
+##format:
+##sql: true
+## ===============================
+## = HIBERNATE
+## ===============================
+#hibernate:
+#  connection:
+#    driver_class: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/eagerloadingDB?createDatabaseIfNotExist=true
+#    username: root
+#    password: root
+#  dialect: org.hibernate.dialect.MySQL8Dialect
+#  hbm2ddl:
+#    auto: update
+#  show_sql: true
+#  format_sql: true
